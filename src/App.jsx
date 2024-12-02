@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Header from "./Components/header";
+import Header from "./Components/Header";
 import HomePage from "./Pages/HomePage";
 import BeginnerCoursesPage from "./Pages/BeginnerCoursesPage";
 import IntermediateCoursesPage from "./Pages/IntermediateCoursesPage";
