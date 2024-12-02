@@ -1,13 +1,14 @@
 import { Container } from "react-bootstrap";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Header from "./components/header";
-import HomePage from "./pages/HomePage";
-import BeginnerCoursesPage from "./pages/BeginnerCoursesPage";
-import IntermediateCoursesPage from "./pages/IntermediateCoursesPage";
-import CoursesPage from "./pages/CoursesPage";
-import SearchPage from "./pages/SearchPage";
-import MatrixPage from "./pages/lectures/matrix/MatrixPage";
+import Header from "./Components/header";
+import HomePage from "./Pages/HomePage";
+import BeginnerCoursesPage from "./Pages/BeginnerCoursesPage";
+import IntermediateCoursesPage from "./Pages/IntermediateCoursesPage";
+import CoursesPage from "./Pages/CoursesPage";
+import SearchPage from "./Pages/SearchPage";
+import MatrixPage from "./Pages/Lectures/Matrix/MatrixPage";
 import MatrixVideoPage from "./pages/lectures/matrix/MatrixVideoPage";
+
 
 export default function App() {
 
