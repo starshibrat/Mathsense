@@ -10,8 +10,6 @@ export default function BeginnerCoursesPage() {
             <Stack direction="vertical">
                 <ListGroup variant="flush" className="beginnerlist">
                     <Link to="/courses/matriks/materi"><ListGroup.Item>Matriks</ListGroup.Item></Link>
-                    <ListGroup.Item>Persamaan Dua Variabel</ListGroup.Item>
-                    <ListGroup.Item>Persamaan Tiga Variabel</ListGroup.Item>
                 </ListGroup>
             </Stack>
         </Body>

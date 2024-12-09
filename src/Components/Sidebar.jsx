@@ -11,6 +11,10 @@ export default function Sidebar() {
             <Nav.Item>
                 <Nav.Link as={NavLink} to="/courses">Courses</Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+                <Nav.Link as={NavLink} to="/paths">Paths</Nav.Link>
+            </Nav.Item>
+            
         </Navbar>
     );
 }

@@ -1,30 +1,18 @@
-import { Stack } from "react-bootstrap";
-import Body from "../Components/Body";
-import Greet from "../Components/Greet";
-import beginner from "../assets/beginner.jpeg"
-import intermediate from "../assets/intermediate.jpg"
-import setTitle from "./PageFunctions";
+import { ListGroup, Stack } from "react-bootstrap"
+import setTitle from "./PageFunctions"
+import { Link } from "react-router-dom"
+import Body from "../Components/Body"
 
 export default function CoursesPage() {
-    setTitle("Courses")
+    setTitle("Beginner Courses")
     return (
         <Body sidebar>
-            <Stack direction="horizontal" className="h-100">
-                <Greet 
-                title={"Beginner"} 
-                description={"Perjalanan sepuluh ribu miles dimulai dari satu langkah kecil."} 
-                imgLink={beginner} 
-                path={"/courses/beginner"}
-                />
-
-                <Greet 
-                title={"Intermediate"} 
-                description={"Jalan menuju kesuksesan semakin dekat dan semakin berat."} 
-                imgLink={intermediate} 
-                path={"/courses/intermediate"}
-                />
+            <Stack direction="vertical">
+                <ListGroup variant="flush" className="beginnerlist">
+                    <Link to="/courses/matriks/materi"><ListGroup.Item>Matriks</ListGroup.Item></Link>
+                    <ListGroup.Item>Limit</ListGroup.Item>
+                </ListGroup>
             </Stack>
         </Body>
     )
 }
-

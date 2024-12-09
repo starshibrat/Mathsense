@@ -9,8 +9,6 @@ export default function IntermediateCoursesPage() {
             <Stack direction="vertical">
                 <ListGroup variant="flush" className="beginnerlist">
                     <ListGroup.Item>Limit</ListGroup.Item>
-                    <ListGroup.Item>Turunan I</ListGroup.Item>
-                    <ListGroup.Item>Turunan II</ListGroup.Item>
                 </ListGroup>
             </Stack>
         </Body>
