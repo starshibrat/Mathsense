@@ -7,6 +7,10 @@ export default function MatrixPage() {
     return (
 
         <Course title={"Matriks"} path={paths}>
+            <h2>I. Pengertian Matriks</h2>
+            <p>Matriks merupakan sekumpulan bilangan yang disusun berdasarkan baris dan kolom, dan diapit dengan tanda kurung.
+                Berikut ini adalah bentuk umum dari matriks :
+            </p>
         </Course>
     )
 }
