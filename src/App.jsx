@@ -9,6 +9,7 @@ import SearchPage from "./Pages/SearchPage";
 import MatrixPage from "./Pages/Lectures/Matrix/MatrixPage";
 import MatrixVideoPage from "./pages/lectures/matrix/MatrixVideoPage";
 import CoursesPage from "./Pages/CoursesPage";
+import MatrixQuizPage from "./Pages/Lectures/Matrix/MatrixQuizPage";
 
 
 export default function App() {
@@ -26,7 +27,7 @@ export default function App() {
           <Route path='/courses' element={<CoursesPage />} />
           <Route path='/courses/matriks/materi' element={<MatrixPage />} />
           <Route path='/courses/matriks/video' element={<MatrixVideoPage />} />
-          <Route path='/courses/matriks/quiz' element={<MatrixPage />} />
+          <Route path='/courses/matriks/quiz' element={<MatrixQuizPage />} />
 
         </Routes>
       </BrowserRouter>
