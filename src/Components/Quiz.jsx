@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Card, Container, Form, ListGroup, Modal, Stack } from "react-bootstrap";
+import { Button, Card, Container, Form, Image, ListGroup, Modal, Stack } from "react-bootstrap";
 
 const dummyQuestions = [
     {
@@ -78,6 +78,8 @@ export default function Quiz({ questions = dummyQuestions }) {
                     <Card.Header as="h5">{"Quiz No. " + (q.id + 1)}</Card.Header>
                     <Card.Body>
                         <Card.Title>{q.question}</Card.Title>
+
+                       {q.image && <Image src={q.image} width={250} rounded className="mx-auto d-block quizImg" />}
 
                         <Form>
                             {
