@@ -47,3 +47,46 @@
 .containerHeader {
     max-height: 200px;
 }
+
+.matrix {
+    position: relative;
+    display: inline-table;
+    margin: 0 auto;
+    border-spacing: 10px;
+}
+.matrix:before, .matrix:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    border: 1px solid #000;
+    width: 6px;
+    height: 100%;
+}
+.matrix:before {
+    left: -6px;
+    border-right: 0;
+}
+.matrix:after {
+    right: -6px;
+    border-left: 0;
+}
+
+.matrix td {
+    padding: 10px;
+}
+
+.transpose1-row1 {
+    background-color: blue;
+}
+
+.transpose1-row2 {
+    background-color: green;
+}
+
+.blueCol {
+    background-color: blue;
+}
+
+.greenCol {
+    background-color: green;
+}
