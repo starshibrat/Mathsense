@@ -1,14 +1,15 @@
 import { Stack } from "react-bootstrap";
 import Body from "../Components/Body";
 import Greet from "../Components/Greet";
-import beginner from "../assets/beginner.jpeg"
-import intermediate from "../assets/intermediate.jpg"
+import beginner from "../assets/newbie.jpg";
+import intermediate from "../assets/pro.jpg"
 import setTitle from "./PageFunctions";
 
 export default function PathsPage() {
     setTitle("Courses")
     return (
         <Body sidebar>
+            <br></br>
             <Stack direction="horizontal" className="h-100">
                 <Greet 
                 title={"Beginner"} 

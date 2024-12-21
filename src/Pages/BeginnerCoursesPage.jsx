@@ -7,6 +7,7 @@ export default function BeginnerCoursesPage() {
     setTitle("Beginner Courses")
     return (
         <Body sidebar>
+            <br></br>
             <Stack direction="vertical">
                 <ListGroup variant="flush" className="beginnerlist">
                     <Link to="/courses/matriks/materi"><ListGroup.Item>Matriks</ListGroup.Item></Link>

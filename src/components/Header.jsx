@@ -1,7 +1,7 @@
 import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import { useLocation, useNavigate } from "react-router-dom";
 import backIcon from "../assets/back_icon.jpg";
-import SearchBox from "./SearchBox";
+import SearchBox from "../SearchBox";
 
 export default function Header() {
     const navigate = useNavigate();

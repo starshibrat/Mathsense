@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button, Card, Container } from "react-bootstrap";
+import '../index.css';
 
 const dummyQuestions = [
     {
@@ -44,7 +45,7 @@ export default function ExercisesBox({ questions = dummyQuestions }) {
             {
                 qs.map(
                     q => (
-                        <Card key={q.id}>
+                        <Card key={q.id} className="exercise-box">
                             <Card.Header as="h5">{"Soal Latihan " + (q.id + 1)}</Card.Header>
                             <Card.Body>
                                 <Card.Title>{q.question}</Card.Title>
