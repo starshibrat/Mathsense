@@ -75,12 +75,14 @@ export default function MatrixPage() {
 
             <Image src={matricesPng} width={250} rounded className="mx-auto d-block courseImg" />
 
-            <p>Huruf i mewakilkan baris (horizontal) dan j mewakilkan kolom (vertikal). Jadi elemen a12  merupakan elemen dari matriks A yang berada pada baris 1 dan kolom ke 2.</p>
+            <p>Huruf i mewakilkan baris (horizontal) dan j mewakilkan kolom (vertikal). Jadi elemen a<sub>12</sub>  merupakan elemen dari matriks A yang berada pada baris 1 dan kolom ke 2.</p>
             <h5>Ordo dan Elemen Matriks</h5>
             <p>Nah matriks tadi itu memiliki ukuran, yang biasa disebut dengan ordo. Bagaimana sih cara menentukan ordo dari matriks? Pertama tama kita harus mengetahui terlebih dahulu jumlah baris dan kolom dari matriks. Baris biasanya diwakili dengan m dan kolom diwakili dengan n. Sehingga ordo matriks akan diwakilkan dengan m x n.</p>
             <p className="text-center">A<sub>m x n</sub></p>
             <p className="text-center">A<sub>2 x 3</sub></p>
             <p>Artinya matriks tersebut memiliki 2 baris dan 3 kolom.</p>
+
+            <h5>Matriks Interaktif</h5>
             <Table hover className="w-25 text-center">
                 <tbody>
                     <tr>
