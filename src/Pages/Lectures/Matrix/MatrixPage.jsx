@@ -7,7 +7,9 @@ import matrices_tri_upperPng from "../../../Assets/matrix/matrices_tri_upper.png
 import matrices_tri_lowerPng from "../../../Assets/matrix/matrices_tri_lower.png";
 import matrices_diagPng from "../../../Assets/matrix/matrices_diag.png";
 import ExercisesBox from "../../../Components/ExercisesBox";
-import Body from "../../../Components/Body";
+
+
+
 
 export default function MatrixPage() {
     const path = "/courses/matriks";
@@ -62,8 +64,8 @@ export default function MatrixPage() {
 
 
     return (
-        <Body sidebar>
-            <Course title={"Matriks"} path={paths}>
+
+        <Course title={"Matriks"} path={paths}>
             <h2>I. Pengertian Matriks</h2>
             <p>Matriks merupakan sekumpulan bilangan yang disusun berdasarkan baris dan kolom, dan diapit dengan tanda kurung.
                 Berikut ini adalah bentuk umum dari matriks :
@@ -165,8 +167,7 @@ export default function MatrixPage() {
 
             <br />
 
-            <ExercisesBox questions={exqs1} className="exercise-box"/>
-            <br></br>
+            <ExercisesBox questions={exqs1} />
             <h2>II. Jenis - Jenis Matriks</h2>
             <p>Berdasarkan ukurannya, matriks dapat dibagi menjadi beberapa jenis. Pada materi ini, kita akan membahas satu-persatu jenis matriks.</p>
 
@@ -403,7 +404,5 @@ export default function MatrixPage() {
 
 
         </Course>
-        </Body>
-        
     )
 }

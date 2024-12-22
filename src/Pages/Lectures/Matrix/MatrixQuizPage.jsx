@@ -61,9 +61,6 @@ export default function MatrixQuizPage() {
     const path = "/courses/matriks";
     const paths = [path + "/materi", path + "/video", path + "/quiz"];
     return (
-        // <Body sidebar>
-            
-        // </Body>
         <Course title="Matriks" path={paths}>
             <Quiz questions={quizzes}/>
         </Course>

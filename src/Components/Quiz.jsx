@@ -99,23 +99,17 @@ export default function Quiz({ questions = dummyQuestions }) {
                             }
                         </Form>
 
-                        <br></br>
-                        <br></br>
-
                         <Stack direction="horizontal" className="d-flex justify-content-between">
                             {index > 0 && <Button variant="secondary" onClick={() => onPrevHandle()}>
                                 Previous
                             </Button>}
-                            <div className="ms-auto">
-                                {index < qs.length - 1 && <Button variant="secondary" onClick={() => onNextHandle()}>
-                                    Next
-                                </Button>}
-                                {index === qs.length - 1 && <Button variant="danger" onClick={() => onFinishHandle()}>
-                                    Finish
-                                </Button>}
-                            </div>
+                            <Button variant="danger" onClick={() => onFinishHandle()}>
+                                Finish
+                            </Button>
+                            {index < qs.length - 1 && <Button variant="secondary" onClick={() => onNextHandle()}>
+                                Next
+                            </Button>}
                         </Stack>
-
 
 
 
@@ -170,7 +164,6 @@ function QuizResult({ questions = dummyQuestions }) {
             <Card className="w-50 ms-3" key={q.id}>
                 <Card.Body>
                     <Card.Subtitle>Jawabanmu: {q.userAnswer == "" ? "<kosong>" : q.userAnswer}</Card.Subtitle>
-                    <br></br>
                     <Card.Subtitle>Jawaban yang benar: {q.answer}</Card.Subtitle>
                     <Card.Text>
                         {q.explanation}
