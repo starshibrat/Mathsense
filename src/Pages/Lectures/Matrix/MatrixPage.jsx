@@ -7,11 +7,13 @@ import matrices_tri_upperPng from "../../../Assets/matrix/matrices_tri_upper.png
 import matrices_tri_lowerPng from "../../../Assets/matrix/matrices_tri_lower.png";
 import matrices_diagPng from "../../../Assets/matrix/matrices_diag.png";
 import ExercisesBox from "../../../Components/ExercisesBox";
+import setTitle from "../../PageFunctions";
 
 
 
 
 export default function MatrixPage() {
+    setTitle("Matriks");
     const path = "/courses/matriks";
     const paths = [path + "/materi", path + "/video", path + "/quiz"];
 

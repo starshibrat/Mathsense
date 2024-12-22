@@ -5,7 +5,7 @@ import { NavLink, useLocation } from "react-router-dom";
 export default function CourseSidebar({path}) {
 
     return (
-        <Navbar sticky="top" className="flex-column  Sidebar">
+        <Navbar sticky="bottom" className="flex-column  Sidebar">
             <Nav.Item>
                 <Nav.Link as={NavLink} to={path[0]}>Materi</Nav.Link>
             </Nav.Item>
