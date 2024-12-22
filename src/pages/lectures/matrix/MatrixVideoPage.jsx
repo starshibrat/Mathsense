@@ -1,8 +1,6 @@
 import Course from "../../../Components/Course";
-import setTitle from "../../PageFunctions";
 
 export default function MatrixVideoPage() {
-    setTitle("Video Matriks");
     const path = "/courses/matriks";
     const paths = [path + "/materi", path + "/video", path + "/quiz"];
     return (
