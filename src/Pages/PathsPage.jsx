@@ -1,8 +1,8 @@
 import { Stack } from "react-bootstrap";
 import Body from "../Components/Body";
 import Greet from "../Components/Greet";
-import beginner from "../assets/newbie.jpg";
-import intermediate from "../assets/Int.svg";
+import beginner from "../Assets/Beg.svg";
+import intermediate from "../Assets/Int.svg";
 import setTitle from "./PageFunctions";
 
 export default function PathsPage() {
@@ -17,12 +17,12 @@ export default function PathsPage() {
                 path={"/paths/beginner"}
                 />
 
-                {/* <Greet 
+                <Greet 
                 title={"Intermediate"} 
                 description={"Jalan menuju kesuksesan semakin dekat dan semakin berat."} 
                 imgLink={intermediate} 
                 path={"/paths/intermediate"}
-                /> */}
+                />
             </Stack>
         </Body>
     )
