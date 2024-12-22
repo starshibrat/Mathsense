@@ -3,6 +3,8 @@ import Quiz from "../../../Components/Quiz";
 import Quiz12Png from "../../../Assets/matrix/quiz12.png";
 import Quiz3Png from "../../../Assets/matrix/quiz3.png";
 import Quiz45Png from "../../../Assets/matrix/quiz4.png";
+import setTitle from "../../PageFunctions";
+
 
 const quizzes = [
     {
@@ -58,6 +60,7 @@ const quizzes = [
 ]
 
 export default function MatrixQuizPage() {
+    setTitle("Quiz Matriks");
     const path = "/courses/matriks";
     const paths = [path + "/materi", path + "/video", path + "/quiz"];
     return (
