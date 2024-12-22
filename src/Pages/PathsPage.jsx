@@ -1,8 +1,8 @@
 import { Stack } from "react-bootstrap";
 import Body from "../Components/Body";
 import Greet from "../Components/Greet";
-import beginner from "../assets/beginner.jpeg"
-import intermediate from "../assets/intermediate.jpg"
+import beginner from "../assets/beg.svg";
+import intermediate from "../assets/int.svg";
 import setTitle from "./PageFunctions";
 
 export default function PathsPage() {

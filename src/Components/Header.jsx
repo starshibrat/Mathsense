@@ -14,7 +14,7 @@ export default function Header() {
                     <Nav.Item onClick={() => navigate(-1)}><Image src={backIcon} width={28}></Image></Nav.Item>
                 }
 
-                <Navbar.Brand>MathSense</Navbar.Brand>
+                <Navbar.Brand onClick={() => navigate("/")}>MathSense</Navbar.Brand>
                 <Nav.Item>
                     <SearchBox />
                 </Nav.Item>
