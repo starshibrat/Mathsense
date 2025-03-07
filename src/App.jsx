@@ -28,7 +28,7 @@ export default function App() {
           <Route path='/courses/matriks/materi' element={<MatrixPage />} />
           <Route path='/courses/matriks/video' element={<MatrixVideoPage />} />
           <Route path='/courses/matriks/quiz' element={<MatrixQuizPage />} />
-          <Route path='/sitemap.xml' element={<SitemapPage />} />
+          <Route path='/sitemap' element={<SitemapPage />} />
 
         </Routes>
       </BrowserRouter>
