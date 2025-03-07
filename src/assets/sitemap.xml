@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://mathsensev1.vercel.app/</loc>
+        <lastmod>2025-03-07</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://mathsensev1.vercel.app/courses</loc>
+        <lastmod>2025-03-07</lastmod>
+        <changefreq>yearly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://mathsensev1.vercel.app/paths</loc>
+        <lastmod>2025-03-07</lastmod>
+        <changefreq>yearly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://mathsensev1.vercel.app/courses/matriks/materi</loc>
+        <lastmod>2025-03-07</lastmod>
+        <changefreq>yearly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://mathsensev1.vercel.app/courses/matriks/video</loc>
+        <lastmod>2025-03-07</lastmod>
+        <changefreq>yearly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://mathsensev1.vercel.app/courses/matriks/quiz</loc>
+        <lastmod>2025-03-07</lastmod>
+        <changefreq>yearly</changefreq>
+    </url>
+
+</urlset>
